@@ -1,0 +1,126 @@
+{
+  "session_count": 3960,
+  "unique_session_ids": 3960,
+  "summary_cells_reconciled": 792,
+  "deterministic_rerun_passed": true,
+  "distinct_cover_ids": 962,
+  "sampled_failure_occurrences": {
+    "0.1": 1,
+    "0.2": 0,
+    "0.4": 0
+  },
+  "sampled_missing_image_occurrences": {
+    "0.1": 0,
+    "0.2": 0,
+    "0.4": 0
+  },
+  "post_pilot_cap_feasibility": {
+    "0": [
+      "000"
+    ],
+    "0.2": [
+      "000",
+      "010",
+      "100"
+    ],
+    "0.5": [
+      "000",
+      "010",
+      "100",
+      "110"
+    ],
+    "0.7": [
+      "000",
+      "001",
+      "010",
+      "100",
+      "110"
+    ],
+    "0.85": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110"
+    ],
+    "1": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ]
+  },
+  "observed_mean_payoff_dominance": {
+    "0.5": true,
+    "1": true
+  },
+  "paired_seed_comparisons": [
+    {
+      "environment": "E1",
+      "policy_vs_000": "110",
+      "attack": "C3",
+      "beta": 0.05,
+      "mean_difference_pp": 1.100000000000001,
+      "sd_difference_pp": 0.5477225575051665,
+      "seed_differences": [
+        0.010000000000000009,
+        0.010000000000000009,
+        0.0050000000000000044,
+        0.020000000000000018,
+        0.010000000000000009
+      ]
+    },
+    {
+      "environment": "E1",
+      "policy_vs_000": "111",
+      "attack": "C3",
+      "beta": 0.05,
+      "mean_difference_pp": 10.000000000000009,
+      "sd_difference_pp": 0.7905694150420954,
+      "seed_differences": [
+        0.09500000000000008,
+        0.10000000000000009,
+        0.09000000000000008,
+        0.1100000000000001,
+        0.1050000000000001
+      ]
+    },
+    {
+      "environment": "E2",
+      "policy_vs_000": "110",
+      "attack": "C3",
+      "beta": 0.05,
+      "mean_difference_pp": 1.6999999999999995,
+      "sd_difference_pp": 1.9557607215607966,
+      "seed_differences": [
+        0.050000000000000044,
+        0.014999999999999902,
+        0.0050000000000000044,
+        0.015000000000000013,
+        0.0
+      ]
+    },
+    {
+      "environment": "E2",
+      "policy_vs_000": "111",
+      "attack": "C3",
+      "beta": 0.05,
+      "mean_difference_pp": 11.100000000000005,
+      "sd_difference_pp": 2.8151376520518467,
+      "seed_differences": [
+        0.15500000000000003,
+        0.12,
+        0.08500000000000008,
+        0.1050000000000001,
+        0.09000000000000008
+      ]
+    }
+  ],
+  "maximum_completion_latency_ms": 258
+}

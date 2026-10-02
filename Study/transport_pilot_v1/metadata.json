@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-19",
+  "stage": "development pilot, not confirmatory or game-optimisation results",
+  "full_gamma_files_every_message": true,
+  "plan_sha256": "f49c2c8b41331ca4ee53e1e582981dbe1bae06ee42ef187428220280a89990ad",
+  "pilot_code_sha256": "6a40d8c77b32b3d3684de2a10959989739bd3392f840966d3729d6bcbbd7ca60",
+  "transport_code_sha256": "88470546db05337435fc024a46c336002fcc33342f752f8fa0d1578efb7da378",
+  "source_log_sha256": "e5c56cc77c0b116d6c1e1b7a912dfca1995db3ee9d1ebb43bd7c20252d11c4a0",
+  "prior_tests_passed": 35,
+  "full_byte_equivalence_cases_passed": 32,
+  "seed_list": [
+    190901,
+    190902,
+    190903,
+    190904,
+    190905
+  ],
+  "sessions": 3960,
+  "offered_simulated_epochs": 792000,
+  "distinct_transport_replays": 1320,
+  "source_summary": {
+    "0.1": {
+      "attempts": 10000,
+      "missing_images": 1,
+      "extraction_failures_including_missing": 14
+    },
+    "0.2": {
+      "attempts": 10000,
+      "missing_images": 4,
+      "extraction_failures_including_missing": 16
+    },
+    "0.4": {
+      "attempts": 10000,
+      "missing_images": 4,
+      "extraction_failures_including_missing": 14
+    }
+  },
+  "object_sizes_bytes": [
+    68295,
+    67736,
+    262159
+  ],
+  "archive_image_size_counts": {
+    "262159": 29991
+  },
+  "wall_seconds": 13.913519088999237
+}
