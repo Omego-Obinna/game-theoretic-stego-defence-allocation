@@ -1,0 +1,17 @@
+{
+  "evaluated_configurations": 288,
+  "strategies_per_configuration": 8,
+  "frozen_weights_unchanged": true,
+  "all_actual_hard_caps_verified": true,
+  "augmented_minimum_never_exceeds_legacy": true,
+  "learning_time_ms_range": [
+    200,
+    200
+  ],
+  "zero_final_reservations": true,
+  "bootstrap_seed": 192999,
+  "bootstrap_resamples": 2000,
+  "wall_seconds": 2.544766120001441,
+  "evaluator_hash": "1656e14dac5d46179ea375339993cb90e279cb30cbbe4cfc704c9d2753b9ce62",
+  "results_hash": "6c3f6b019a43859d0787aec8c56a1dd785ed8da635af14f8b8c5371792a4fcb9"
+}

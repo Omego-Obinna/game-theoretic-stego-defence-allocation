@@ -1,0 +1,969 @@
+{
+  "stage": "Deterministic transport validation; NOT a payoff pilot",
+  "date": "2026-09-19",
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "wall_seconds": 0.6472658000002411,
+  "dependencies": "Python standard library only",
+  "manifest_sha256": "c2e2e1274a88b9a28d101b1d88ec189c318215ea2d4790538e36845118cec614",
+  "archive_log_sha256": "e5c56cc77c0b116d6c1e1b7a912dfca1995db3ee9d1ebb43bd7c20252d11c4a0",
+  "unit_tests": {
+    "run": 35,
+    "passed": [
+      "test_transport.TransportTests.test_all_arrival_permutations_complete",
+      "test_transport.TransportTests.test_all_channels_payload_tampering_rejected",
+      "test_transport.TransportTests.test_attack_block_cap_no_carry_and_partial_block",
+      "test_transport.TransportTests.test_attack_input_cannot_be_replayed_or_time_reversed",
+      "test_transport.TransportTests.test_attacker_budget_fixed_across_defences",
+      "test_transport.TransportTests.test_bytes_reconcile_all_eight_policies_even_when_lost",
+      "test_transport.TransportTests.test_clock_window_advances_after_unseen_epoch_expires",
+      "test_transport.TransportTests.test_completely_lost_epochs_in_denominator",
+      "test_transport.TransportTests.test_copies_are_impaired_too",
+      "test_transport.TransportTests.test_copies_consume_separate_attack_actions",
+      "test_transport.TransportTests.test_copy_can_replace_lost_original",
+      "test_transport.TransportTests.test_cross_epoch_components_do_not_complete",
+      "test_transport.TransportTests.test_duplicate_delivery_prevented",
+      "test_transport.TransportTests.test_exact_deadline_is_inclusive",
+      "test_transport.TransportTests.test_full_transcript_hash_checked",
+      "test_transport.TransportTests.test_future_and_out_of_window_do_not_advance_state",
+      "test_transport.TransportTests.test_hard_defender_budget_and_exact_boundary",
+      "test_transport.TransportTests.test_header_tampering_rejected",
+      "test_transport.TransportTests.test_invalid_configuration_fails_closed",
+      "test_transport.TransportTests.test_late_last_object_cannot_trigger_acceptance",
+      "test_transport.TransportTests.test_malformed_length_and_truncated_input",
+      "test_transport.TransportTests.test_missing_each_required_channel_expires",
+      "test_transport.TransportTests.test_natural_loss_not_disclosed_and_does_not_refund_attack",
+      "test_transport.TransportTests.test_nonmonotone_and_closed_receivers_rejected",
+      "test_transport.TransportTests.test_objects_longer_than_digest_are_not_truncated",
+      "test_transport.TransportTests.test_one_millisecond_late_expires",
+      "test_transport.TransportTests.test_recorded_extraction_failure_remains_failure_with_copies",
+      "test_transport.TransportTests.test_repeated_finalization_does_not_duplicate_outcomes",
+      "test_transport.TransportTests.test_spread_boundary_and_copy_refresh",
+      "test_transport.TransportTests.test_transcript_substitution_rejected",
+      "test_transport.TransportTests.test_unknown_epoch_rejected",
+      "test_transport.TransportTests.test_valid_copy_after_invalid_original",
+      "test_transport.TransportTests.test_wire_round_trip_and_exact_size",
+      "test_transport.TransportTests.test_wrong_key_rejected",
+      "test_transport.TransportTests.test_wrong_session_or_configuration_rejected"
+    ],
+    "failures": [],
+    "errors": []
+  },
+  "archive_integration_cases": [
+    {
+      "payload_bpp": 0.1,
+      "policy": [
+        0,
+        0,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.1,
+      "policy": [
+        0,
+        0,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.1,
+      "policy": [
+        0,
+        1,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.1,
+      "policy": [
+        0,
+        1,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.1,
+      "policy": [
+        1,
+        0,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.1,
+      "policy": [
+        1,
+        0,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.1,
+      "policy": [
+        1,
+        1,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.1,
+      "policy": [
+        1,
+        1,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.1,
+      "policy": [
+        0,
+        0,
+        0
+      ],
+      "case": "lost_C1_without_copy",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.1,
+      "policy": [
+        1,
+        0,
+        0
+      ],
+      "case": "lost_C1_original_with_copy",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.1,
+      "policy": [
+        1,
+        0,
+        0
+      ],
+      "case": "lost_C1_all_copies",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.2,
+      "policy": [
+        0,
+        0,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.2,
+      "policy": [
+        0,
+        0,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.2,
+      "policy": [
+        0,
+        1,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.2,
+      "policy": [
+        0,
+        1,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.2,
+      "policy": [
+        1,
+        0,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.2,
+      "policy": [
+        1,
+        0,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.2,
+      "policy": [
+        1,
+        1,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.2,
+      "policy": [
+        1,
+        1,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.2,
+      "policy": [
+        0,
+        0,
+        0
+      ],
+      "case": "lost_C1_without_copy",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.2,
+      "policy": [
+        1,
+        0,
+        0
+      ],
+      "case": "lost_C1_original_with_copy",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.2,
+      "policy": [
+        1,
+        0,
+        0
+      ],
+      "case": "lost_C1_all_copies",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.4,
+      "policy": [
+        0,
+        0,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.4,
+      "policy": [
+        0,
+        0,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.4,
+      "policy": [
+        0,
+        1,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.4,
+      "policy": [
+        0,
+        1,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.4,
+      "policy": [
+        1,
+        0,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.4,
+      "policy": [
+        1,
+        0,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.4,
+      "policy": [
+        1,
+        1,
+        0
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.4,
+      "policy": [
+        1,
+        1,
+        1
+      ],
+      "case": "clean_archive_objects",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.4,
+      "policy": [
+        0,
+        0,
+        0
+      ],
+      "case": "lost_C1_without_copy",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.4,
+      "policy": [
+        1,
+        0,
+        0
+      ],
+      "case": "lost_C1_original_with_copy",
+      "passed": true
+    },
+    {
+      "payload_bpp": 0.4,
+      "policy": [
+        1,
+        0,
+        0
+      ],
+      "case": "lost_C1_all_copies",
+      "passed": true
+    }
+  ],
+  "fixtures": [
+    {
+      "payload_bpp": 0.1,
+      "image_id": "1",
+      "run_id": "ours-qim-v3-2-20260606T204306-d220f9",
+      "recorded_success_extract": 1,
+      "files": [
+        {
+          "path": "EXTERNAL_ARCHIVE/cover_parameter/hybrid-stego/gamma1_pride_selected_seed44.txt",
+          "bytes": 68295,
+          "sha256": "b56377eb1f4901aeeee7cd81619cd1d005b6045922f1e7f9191a257aa3ac42fb"
+        },
+        {
+          "path": "EXTERNAL_ARCHIVE/cover_parameter/hybrid-stego/gamma2_pride_selected_seed44.txt",
+          "bytes": 67736,
+          "sha256": "d08c31b4d6cc266ea14352d4c8ae9764bc3519ec0721ddbcde7525c07865bbd0"
+        },
+        {
+          "path": "EXTERNAL_ARCHIVE/ours_qim_v3_2_fused075_payloads_FULL/ours_qim_0.100/1.pgm",
+          "bytes": 262159,
+          "sha256": "5b68b26e604afe1a0372853afac025993e8789cff41564dfe4851cfa217b5eca"
+        }
+      ],
+      "policy_costs": [
+        {
+          "policy": [
+            0,
+            0,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 0,
+          "total_bytes": 398589,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.0,
+          "feasible_extra_caps": [
+            0,
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            0,
+            0,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 262292,
+          "total_bytes": 660881,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.6580512758756514,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            0,
+            1,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 67869,
+          "total_bytes": 466458,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.1702731384960448,
+          "feasible_extra_caps": [
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            0,
+            1,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 330161,
+          "total_bytes": 728750,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.8283244143716961,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            0,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 68428,
+          "total_bytes": 467017,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.17167558562830385,
+          "feasible_extra_caps": [
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            0,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 330720,
+          "total_bytes": 729309,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.8297268615039552,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            1,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 136297,
+          "total_bytes": 534886,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.3419487241243486,
+          "feasible_extra_caps": [
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            1,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 398589,
+          "total_bytes": 797178,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 1.0,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "payload_bpp": 0.2,
+      "image_id": "1",
+      "run_id": "ours-qim-v3-2-20260606T204306-d220f9",
+      "recorded_success_extract": 1,
+      "files": [
+        {
+          "path": "EXTERNAL_ARCHIVE/cover_parameter/hybrid-stego/gamma1_pride_selected_seed44.txt",
+          "bytes": 68295,
+          "sha256": "b56377eb1f4901aeeee7cd81619cd1d005b6045922f1e7f9191a257aa3ac42fb"
+        },
+        {
+          "path": "EXTERNAL_ARCHIVE/cover_parameter/hybrid-stego/gamma2_pride_selected_seed44.txt",
+          "bytes": 67736,
+          "sha256": "d08c31b4d6cc266ea14352d4c8ae9764bc3519ec0721ddbcde7525c07865bbd0"
+        },
+        {
+          "path": "EXTERNAL_ARCHIVE/ours_qim_v3_2_fused075_payloads_FULL/ours_qim_0.200/1.pgm",
+          "bytes": 262159,
+          "sha256": "85d0a7a4c61a905eda05f2dc568792d6bde3fc50aa18257217f3093cff7d599f"
+        }
+      ],
+      "policy_costs": [
+        {
+          "policy": [
+            0,
+            0,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 0,
+          "total_bytes": 398589,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.0,
+          "feasible_extra_caps": [
+            0,
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            0,
+            0,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 262292,
+          "total_bytes": 660881,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.6580512758756514,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            0,
+            1,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 67869,
+          "total_bytes": 466458,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.1702731384960448,
+          "feasible_extra_caps": [
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            0,
+            1,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 330161,
+          "total_bytes": 728750,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.8283244143716961,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            0,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 68428,
+          "total_bytes": 467017,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.17167558562830385,
+          "feasible_extra_caps": [
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            0,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 330720,
+          "total_bytes": 729309,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.8297268615039552,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            1,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 136297,
+          "total_bytes": 534886,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.3419487241243486,
+          "feasible_extra_caps": [
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            1,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 398589,
+          "total_bytes": 797178,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 1.0,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "payload_bpp": 0.4,
+      "image_id": "1",
+      "run_id": "ours-qim-v3-2-20260606T204306-d220f9",
+      "recorded_success_extract": 1,
+      "files": [
+        {
+          "path": "EXTERNAL_ARCHIVE/cover_parameter/hybrid-stego/gamma1_pride_selected_seed44.txt",
+          "bytes": 68295,
+          "sha256": "b56377eb1f4901aeeee7cd81619cd1d005b6045922f1e7f9191a257aa3ac42fb"
+        },
+        {
+          "path": "EXTERNAL_ARCHIVE/cover_parameter/hybrid-stego/gamma2_pride_selected_seed44.txt",
+          "bytes": 67736,
+          "sha256": "d08c31b4d6cc266ea14352d4c8ae9764bc3519ec0721ddbcde7525c07865bbd0"
+        },
+        {
+          "path": "EXTERNAL_ARCHIVE/ours_qim_v3_2_fused075_payloads_FULL/ours_qim_0.400/1.pgm",
+          "bytes": 262159,
+          "sha256": "6c3aa88b2bad1d9e64b391e84ba7d0b75ff17e87dfd1a4015112a832851fd390"
+        }
+      ],
+      "policy_costs": [
+        {
+          "policy": [
+            0,
+            0,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 0,
+          "total_bytes": 398589,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.0,
+          "feasible_extra_caps": [
+            0,
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            0,
+            0,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 262292,
+          "total_bytes": 660881,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.6580512758756514,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            0,
+            1,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 67869,
+          "total_bytes": 466458,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.1702731384960448,
+          "feasible_extra_caps": [
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            0,
+            1,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 330161,
+          "total_bytes": 728750,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.8283244143716961,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            0,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 68428,
+          "total_bytes": 467017,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.17167558562830385,
+          "feasible_extra_caps": [
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            0,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 330720,
+          "total_bytes": 729309,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.8297268615039552,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            1,
+            0
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 136297,
+          "total_bytes": 534886,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 0.3419487241243486,
+          "feasible_extra_caps": [
+            0.5,
+            1,
+            2
+          ]
+        },
+        {
+          "policy": [
+            1,
+            1,
+            1
+          ],
+          "base_bytes": 398589,
+          "extra_bytes": 398589,
+          "total_bytes": 797178,
+          "per_channel_bytes": [
+            68428,
+            67869,
+            262292
+          ],
+          "extra_fraction": 1.0,
+          "feasible_extra_caps": [
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "envelope_bytes_per_object": 133,
+  "assumptions": [
+    "Full gamma files and saved image transmitted every epoch, no cache or compression",
+    "Precomputed objects; synchronized simulation clock; no feedback",
+    "Eight repetition-only policies; no checkpoints or ECC",
+    "Application-object bytes, no packet/network framing",
+    "No claim of original-message decoding or traffic concealment"
+  ],
+  "code_sha256": {
+    "transport.py": "88470546db05337435fc024a46c336002fcc33342f752f8fa0d1578efb7da378",
+    "test_transport.py": "a47cb3d97fc24b753c28fcc4a551ff184613574f66cb1a6f09faf46314140dfc",
+    "run_validation.py": "b5982e580aa549316ebf83c1f51d2f4502ca41e85dadcfb924542a228b7ecd26"
+  }
+}

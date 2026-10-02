@@ -1,0 +1,33 @@
+{
+  "design_scope": "paired sensitivity on reused validation scenarios, not fresh holdout",
+  "plan_hash": "a1e472780208cbc4605b0773ae96b874e03128c90cced35dcc241a6b181c9840",
+  "engine_hash": "be8f3ebaa3f4ef6aa039c4657eb2b27ae020c380a8e9a6349bc54c53bb9f7527",
+  "tests_hash": "990e0a2d812ed4c3e05fe652f71fbb2fecb103a1f1817b3f8e5af500e17d81d6",
+  "runner_hash": "f9df0c0fd7f4d3975cbd3223b78c3cf566c051f64a1a334de4d25d3f2ac25681",
+  "freeze_hash": "f472d8273e4921dd56d3ac4dac8eace804a812600137459b816f824bbddccd1e",
+  "sample_hash": "187e9aa1e85058fe30e88d1652f3521b4a876a6a1b8ebebdc7cdc1343e5b482b",
+  "prior_raw_hash": "d87e60875f1e516a2d8d40a0fc54263301038ddaa5b4f0a26cf5c493ffbafe63",
+  "seeds": [
+    191001,
+    191002,
+    191003,
+    191004,
+    191005,
+    191006,
+    191007,
+    191008,
+    191009,
+    191010,
+    191011,
+    191012,
+    191013,
+    191014,
+    191015,
+    191016,
+    191017,
+    191018,
+    191019,
+    191020
+  ],
+  "tests_passed": 49
+}

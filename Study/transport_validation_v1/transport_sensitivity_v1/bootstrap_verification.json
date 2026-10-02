@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "representative_configurations": 4,
+  "interval_endpoints_checked": 192,
+  "max_absolute_error": 4.3021142204224816e-16,
+  "scope": "Arithmetic verification only; does not establish statistical coverage, significance or equivalence.",
+  "verifier_hash": "5732c649e92ea956af58d636785cd148123d958a053c591dfdd342ebd35a1dc1"
+}
