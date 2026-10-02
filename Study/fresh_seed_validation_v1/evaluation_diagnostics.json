@@ -1,0 +1,15 @@
+{
+  "frozen_game_cells_evaluated": 216,
+  "strategies_per_game": 8,
+  "seed_n": 20,
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 191999,
+  "all_actual_workload_hard_caps_checked": true,
+  "statistics_unit_checks_passed": true,
+  "no_refitting": true,
+  "frozen_coalition_nonmonotone_cells": 48,
+  "evaluation_wall_seconds": 1.5163274129990896,
+  "evaluator_hash": "d182f38f18e18820bcc1ba482fd87fb7f537067065642f694dbdca7963fe09b4",
+  "freeze_hash_unchanged": "f472d8273e4921dd56d3ac4dac8eace804a812600137459b816f824bbddccd1e",
+  "results_hash": "a034cc0765ba433a292f25e94d9326665b78f34e592aa2b8511ba7cf993208d6"
+}

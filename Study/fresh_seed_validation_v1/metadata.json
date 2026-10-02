@@ -1,0 +1,55 @@
+{
+  "freeze_hash": "f472d8273e4921dd56d3ac4dac8eace804a812600137459b816f824bbddccd1e",
+  "runner_hash": "c8bda597d5f8628f72f6024c64c9d7a2f83e2536822261af7d70f074ab772926",
+  "source_log_hash": "e5c56cc77c0b116d6c1e1b7a912dfca1995db3ee9d1ebb43bd7c20252d11c4a0",
+  "sample_hash": "187e9aa1e85058fe30e88d1652f3521b4a876a6a1b8ebebdc7cdc1343e5b482b",
+  "plan_hash": "d5db643fc9028697a22cd1bfc8c4f09dd71d734c3461458c8f1ea60bd89417a5",
+  "seed_list": [
+    191001,
+    191002,
+    191003,
+    191004,
+    191005,
+    191006,
+    191007,
+    191008,
+    191009,
+    191010,
+    191011,
+    191012,
+    191013,
+    191014,
+    191015,
+    191016,
+    191017,
+    191018,
+    191019,
+    191020
+  ],
+  "development_ids_excluded": 962,
+  "validation_pool_size": 9038,
+  "prior_transport_tests_passed": 35,
+  "object_sizes": [
+    68295,
+    67736,
+    262159
+  ],
+  "sessions": 15840,
+  "offered_simulated_epochs": 3168000,
+  "distinct_transport_replays": 6336,
+  "wall_seconds": 61.75458169400008,
+  "source_overlap_with_development": 0,
+  "unique_validation_cover_ids": 3288,
+  "sampled_missing_occurrences": {
+    "0.1": 1,
+    "0.2": 5,
+    "0.4": 5
+  },
+  "sampled_extraction_failure_occurrences": {
+    "0.1": 13,
+    "0.2": 10,
+    "0.4": 12
+  },
+  "raw_results_hash": "d87e60875f1e516a2d8d40a0fc54263301038ddaa5b4f0a26cf5c493ffbafe63",
+  "no_refitting": true
+}

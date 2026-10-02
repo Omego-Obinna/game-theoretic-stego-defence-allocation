@@ -1,0 +1,15 @@
+{
+  "session_records_reconciled": 15840,
+  "source_ids_development_disjoint": true,
+  "same_ordered_ids_across_payloads": true,
+  "freeze_and_execution_hashes_checked": true,
+  "recorded_failure_weights_checked": true,
+  "bytes_and_attack_counters_reconciled": true,
+  "deterministic_reproduction_with_missing_source_image": {
+    "passed": true,
+    "seed": 191001,
+    "missing_epochs": [
+      39
+    ]
+  }
+}
