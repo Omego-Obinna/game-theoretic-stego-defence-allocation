@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this research software, cite this repository version. Add the actual release URL or archival DOI after deposition; do not describe the manuscript as accepted."
+type: software
+title: "Game-Theoretic Defence Allocation for Reliable Multichannel Steganography: Research Software and Saved Results"
+authors:
+  - family-names: "Omego"
+    given-names: "Obinna"
+version: "1.0.0"
+abstract: "CPU-based transport-allocation simulations, restricted attacker-defender games, cooperative capability valuation, frozen-policy evaluations, and plotting tools for an existing steganographic architecture."
+keywords:
+  - steganography
+  - transport reliability
+  - defence allocation
+  - game theory
+  - Shapley value
+# Deliberately no invented repository URL, DOI, ORCID, or publication status.
+# MIT covers software; see LICENSE_SCOPE.md for separate research-output terms.

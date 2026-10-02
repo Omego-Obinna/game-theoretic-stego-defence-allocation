@@ -1,0 +1,4 @@
+# Tested locally on CPython 3.12.3; CPU only. No PyTorch or CUDA required.
+numpy==2.4.5
+scipy==1.17.1
+matplotlib==3.10.9

@@ -1,0 +1,447 @@
+{
+  "package_date": "2026-09-25",
+  "scientific_files": [
+    {
+      "path": "study/transport_validation_v1/run_validation.py",
+      "source_relative_to_study_outputs": "transport_validation_v1/run_validation.py",
+      "original_sha256": "b5982e580aa549316ebf83c1f51d2f4502ca41e85dadcfb924542a228b7ecd26",
+      "packaged_sha256": "b5982e580aa549316ebf83c1f51d2f4502ca41e85dadcfb924542a228b7ecd26",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_validation_v1/test_transport.py",
+      "source_relative_to_study_outputs": "transport_validation_v1/test_transport.py",
+      "original_sha256": "a47cb3d97fc24b753c28fcc4a551ff184613574f66cb1a6f09faf46314140dfc",
+      "packaged_sha256": "a47cb3d97fc24b753c28fcc4a551ff184613574f66cb1a6f09faf46314140dfc",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_validation_v1/transport.py",
+      "source_relative_to_study_outputs": "transport_validation_v1/transport.py",
+      "original_sha256": "88470546db05337435fc024a46c336002fcc33342f752f8fa0d1578efb7da378",
+      "packaged_sha256": "88470546db05337435fc024a46c336002fcc33342f752f8fa0d1578efb7da378",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_validation_v1/validation_results.json",
+      "source_relative_to_study_outputs": "transport_validation_v1/validation_results.json",
+      "original_sha256": "cdc9b855e8ec2f8198471413815f977423e2a115c4b4e999efdd1ca39ee23ee4",
+      "packaged_sha256": "35789d3e82c35ee591863c7f22e7696b0bb19d88ca5568ce58e52d4c71fc19cb",
+      "transformation": "archive paths replaced; numeric results unchanged"
+    },
+    {
+      "path": "study/transport_pilot_v1/PLAN.md",
+      "source_relative_to_study_outputs": "transport_pilot_v1/PLAN.md",
+      "original_sha256": "f49c2c8b41331ca4ee53e1e582981dbe1bae06ee42ef187428220280a89990ad",
+      "packaged_sha256": "f49c2c8b41331ca4ee53e1e582981dbe1bae06ee42ef187428220280a89990ad",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_pilot_v1/metadata.json",
+      "source_relative_to_study_outputs": "transport_pilot_v1/metadata.json",
+      "original_sha256": "c62c6604fcf7dcb3c89d9d6cbd0eb29cbffc4bf01bb093eb2e36c2f1bac4cf5a",
+      "packaged_sha256": "c62c6604fcf7dcb3c89d9d6cbd0eb29cbffc4bf01bb093eb2e36c2f1bac4cf5a",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_pilot_v1/payoff_summary.json",
+      "source_relative_to_study_outputs": "transport_pilot_v1/payoff_summary.json",
+      "original_sha256": "0f4140a2a09c5da61770889a313054994b71cfa9548e00fb3763f32817ddcf37",
+      "packaged_sha256": "0f4140a2a09c5da61770889a313054994b71cfa9548e00fb3763f32817ddcf37",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_pilot_v1/pilot.py",
+      "source_relative_to_study_outputs": "transport_pilot_v1/pilot.py",
+      "original_sha256": "6a40d8c77b32b3d3684de2a10959989739bd3392f840966d3729d6bcbbd7ca60",
+      "packaged_sha256": "6a40d8c77b32b3d3684de2a10959989739bd3392f840966d3729d6bcbbd7ca60",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_pilot_v1/reconciliation.json",
+      "source_relative_to_study_outputs": "transport_pilot_v1/reconciliation.json",
+      "original_sha256": "22e6c7fad77680b5c19d9cc6b380d8ceb6bd1e002647a41539f984533a1f6735",
+      "packaged_sha256": "22e6c7fad77680b5c19d9cc6b380d8ceb6bd1e002647a41539f984533a1f6735",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_pilot_v1/sampled_records.json",
+      "source_relative_to_study_outputs": "transport_pilot_v1/sampled_records.json",
+      "original_sha256": "6310469352a0a1cbf1954385f22d94242dc44c25269f65d044f61a241268dcf3",
+      "packaged_sha256": "6310469352a0a1cbf1954385f22d94242dc44c25269f65d044f61a241268dcf3",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_pilot_v1/session_results.json",
+      "source_relative_to_study_outputs": "transport_pilot_v1/session_results.json",
+      "original_sha256": "c007ca9432f3002b91a6689715d394cfb7b345847816273eacdc724ba81dbc3e",
+      "packaged_sha256": "c007ca9432f3002b91a6689715d394cfb7b345847816273eacdc724ba81dbc3e",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_pilot_v1/summarise.py",
+      "source_relative_to_study_outputs": "transport_pilot_v1/summarise.py",
+      "original_sha256": "95cc23c6d4128526b1749ad4b0d769118948ebe0dc90f7ea611c0aaad8352b84",
+      "packaged_sha256": "95cc23c6d4128526b1749ad4b0d769118948ebe0dc90f7ea611c0aaad8352b84",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/game_analysis_v1/PLAN.md",
+      "source_relative_to_study_outputs": "game_analysis_v1/PLAN.md",
+      "original_sha256": "2d7a33d5fb2861937a67f1c9067dbd77ac74e6ceeda5d87c417a39f4b34f1a90",
+      "packaged_sha256": "2d7a33d5fb2861937a67f1c9067dbd77ac74e6ceeda5d87c417a39f4b34f1a90",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/game_analysis_v1/analyse.py",
+      "source_relative_to_study_outputs": "game_analysis_v1/analyse.py",
+      "original_sha256": "bdf128fe09dff57dda645179e7d1f8dc3cf1418e112d4c2390d79c4fb29b1658",
+      "packaged_sha256": "bdf128fe09dff57dda645179e7d1f8dc3cf1418e112d4c2390d79c4fb29b1658",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/game_analysis_v1/diagnostics.json",
+      "source_relative_to_study_outputs": "game_analysis_v1/diagnostics.json",
+      "original_sha256": "3c04e6690fcbe367e4378ba5f6416887fdc108ef52e1fec1cf426fac6c7d48b3",
+      "packaged_sha256": "3c04e6690fcbe367e4378ba5f6416887fdc108ef52e1fec1cf426fac6c7d48b3",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/game_analysis_v1/game_results.json",
+      "source_relative_to_study_outputs": "game_analysis_v1/game_results.json",
+      "original_sha256": "a4696bd3fca7f6b432612649ce88e2e3b83779d0de2aff51be9498f2ce7444db",
+      "packaged_sha256": "a4696bd3fca7f6b432612649ce88e2e3b83779d0de2aff51be9498f2ce7444db",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/game_analysis_v1/games.py",
+      "source_relative_to_study_outputs": "game_analysis_v1/games.py",
+      "original_sha256": "ce5fb131f6c1092d196b42b4e5b7fd56eaa0299adb346ee8986d20c295f036a0",
+      "packaged_sha256": "ce5fb131f6c1092d196b42b4e5b7fd56eaa0299adb346ee8986d20c295f036a0",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/game_analysis_v1/in_fit_seed_evaluations.json",
+      "source_relative_to_study_outputs": "game_analysis_v1/in_fit_seed_evaluations.json",
+      "original_sha256": "2c34e3708ce4297b1454fdb50149ca8752e315162c49fc3b83039dca5dc63779",
+      "packaged_sha256": "2c34e3708ce4297b1454fdb50149ca8752e315162c49fc3b83039dca5dc63779",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/game_analysis_v1/test_games.py",
+      "source_relative_to_study_outputs": "game_analysis_v1/test_games.py",
+      "original_sha256": "8e90d30b5e7b941fd268d0fc4dc0c9b4541a783ac27305e28106018225fe5df9",
+      "packaged_sha256": "8e90d30b5e7b941fd268d0fc4dc0c9b4541a783ac27305e28106018225fe5df9",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/game_analysis_v1/verification.json",
+      "source_relative_to_study_outputs": "game_analysis_v1/verification.json",
+      "original_sha256": "56ffdbbf703513a0f467971b97ad543a6a48c4855f6aacac960de5abef45e1e7",
+      "packaged_sha256": "56ffdbbf703513a0f467971b97ad543a6a48c4855f6aacac960de5abef45e1e7",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/game_analysis_v1/verify_analysis.py",
+      "source_relative_to_study_outputs": "game_analysis_v1/verify_analysis.py",
+      "original_sha256": "7ae72be262e1f9c9c9db5674c4b9bb17488e3112f7319dd2bee82a0425c7a36c",
+      "packaged_sha256": "7ae72be262e1f9c9c9db5674c4b9bb17488e3112f7319dd2bee82a0425c7a36c",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/PLAN.md",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/PLAN.md",
+      "original_sha256": "d5db643fc9028697a22cd1bfc8c4f09dd71d734c3461458c8f1ea60bd89417a5",
+      "packaged_sha256": "d5db643fc9028697a22cd1bfc8c4f09dd71d734c3461458c8f1ea60bd89417a5",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/evaluate.py",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/evaluate.py",
+      "original_sha256": "d182f38f18e18820bcc1ba482fd87fb7f537067065642f694dbdca7963fe09b4",
+      "packaged_sha256": "d182f38f18e18820bcc1ba482fd87fb7f537067065642f694dbdca7963fe09b4",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/evaluated_strategies.json",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/evaluated_strategies.json",
+      "original_sha256": "a034cc0765ba433a292f25e94d9326665b78f34e592aa2b8511ba7cf993208d6",
+      "packaged_sha256": "a034cc0765ba433a292f25e94d9326665b78f34e592aa2b8511ba7cf993208d6",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/evaluation_diagnostics.json",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/evaluation_diagnostics.json",
+      "original_sha256": "93a43ea280584800ce356a8fd9f030fb907258012dfa2335fc7fc0c3d217b630",
+      "packaged_sha256": "93a43ea280584800ce356a8fd9f030fb907258012dfa2335fc7fc0c3d217b630",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/execution_manifest.json",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/execution_manifest.json",
+      "original_sha256": "55a93371e4043fc830313eaada0a1f9e2fd5abdb7d9917bfc2f6f7798d5940ed",
+      "packaged_sha256": "55a93371e4043fc830313eaada0a1f9e2fd5abdb7d9917bfc2f6f7798d5940ed",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/freeze.py",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/freeze.py",
+      "original_sha256": "99189c5f01075049af8306603a40e200bae2addbdb35451d9a809995c4b6b257",
+      "packaged_sha256": "99189c5f01075049af8306603a40e200bae2addbdb35451d9a809995c4b6b257",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/frozen_strategies.json",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/frozen_strategies.json",
+      "original_sha256": "f472d8273e4921dd56d3ac4dac8eace804a812600137459b816f824bbddccd1e",
+      "packaged_sha256": "f472d8273e4921dd56d3ac4dac8eace804a812600137459b816f824bbddccd1e",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/metadata.json",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/metadata.json",
+      "original_sha256": "daa1b2beb50e53fac6bc9e34cfd40ca7bdc87929d29cc5e7b5dc3b96be06e878",
+      "packaged_sha256": "daa1b2beb50e53fac6bc9e34cfd40ca7bdc87929d29cc5e7b5dc3b96be06e878",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/run_holdout.py",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/run_holdout.py",
+      "original_sha256": "c8bda597d5f8628f72f6024c64c9d7a2f83e2536822261af7d70f074ab772926",
+      "packaged_sha256": "c8bda597d5f8628f72f6024c64c9d7a2f83e2536822261af7d70f074ab772926",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/sampled_records.json",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/sampled_records.json",
+      "original_sha256": "187e9aa1e85058fe30e88d1652f3521b4a876a6a1b8ebebdc7cdc1343e5b482b",
+      "packaged_sha256": "187e9aa1e85058fe30e88d1652f3521b4a876a6a1b8ebebdc7cdc1343e5b482b",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/session_results.json.gz",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/session_results.json.gz",
+      "original_sha256": "d87e60875f1e516a2d8d40a0fc54263301038ddaa5b4f0a26cf5c493ffbafe63",
+      "packaged_sha256": "d87e60875f1e516a2d8d40a0fc54263301038ddaa5b4f0a26cf5c493ffbafe63",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/verification.json",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/verification.json",
+      "original_sha256": "eda788a96613676ba745ebd44ab34fe291b78865666b57ad3bbc985582a45a51",
+      "packaged_sha256": "eda788a96613676ba745ebd44ab34fe291b78865666b57ad3bbc985582a45a51",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/fresh_seed_validation_v1/verify.py",
+      "source_relative_to_study_outputs": "fresh_seed_validation_v1/verify.py",
+      "original_sha256": "f240f603fa99ee5714d0e522d71e9893ed62e3afe32d389a0dd021984a19c2a6",
+      "packaged_sha256": "f240f603fa99ee5714d0e522d71e9893ed62e3afe32d389a0dd021984a19c2a6",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/PLAN.md",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/PLAN.md",
+      "original_sha256": "a1e472780208cbc4605b0773ae96b874e03128c90cced35dcc241a6b181c9840",
+      "packaged_sha256": "a1e472780208cbc4605b0773ae96b874e03128c90cced35dcc241a6b181c9840",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/bootstrap_verification.json",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/bootstrap_verification.json",
+      "original_sha256": "9ffa801f82930fc8b7a61796293129209b9897777af59c0c472da0f4c5c81ad2",
+      "packaged_sha256": "9ffa801f82930fc8b7a61796293129209b9897777af59c0c472da0f4c5c81ad2",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/engine.py",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/engine.py",
+      "original_sha256": "be8f3ebaa3f4ef6aa039c4657eb2b27ae020c380a8e9a6349bc54c53bb9f7527",
+      "packaged_sha256": "be8f3ebaa3f4ef6aa039c4657eb2b27ae020c380a8e9a6349bc54c53bb9f7527",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/evaluate.py",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/evaluate.py",
+      "original_sha256": "1656e14dac5d46179ea375339993cb90e279cb30cbbe4cfc704c9d2753b9ce62",
+      "packaged_sha256": "1656e14dac5d46179ea375339993cb90e279cb30cbbe4cfc704c9d2753b9ce62",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/evaluated_strategies.json",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/evaluated_strategies.json",
+      "original_sha256": "6c3f6b019a43859d0787aec8c56a1dd785ed8da635af14f8b8c5371792a4fcb9",
+      "packaged_sha256": "6c3f6b019a43859d0787aec8c56a1dd785ed8da635af14f8b8c5371792a4fcb9",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/evaluation_diagnostics.json",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/evaluation_diagnostics.json",
+      "original_sha256": "072709e99a626d478a8f9caa08674b840df86cdace9978c17107c6c78f2f2523",
+      "packaged_sha256": "072709e99a626d478a8f9caa08674b840df86cdace9978c17107c6c78f2f2523",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/execution_manifest.json",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/execution_manifest.json",
+      "original_sha256": "a8a97e4e5ffaecfb29657d04f9febff3ad1be2cd9d934cf00f51c11100b643a1",
+      "packaged_sha256": "a8a97e4e5ffaecfb29657d04f9febff3ad1be2cd9d934cf00f51c11100b643a1",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/metadata.json",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/metadata.json",
+      "original_sha256": "ab056f43d89c7be3beb32308e2b20a2112d56da805486b08286b5bd20ae67926",
+      "packaged_sha256": "ab056f43d89c7be3beb32308e2b20a2112d56da805486b08286b5bd20ae67926",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/run_sensitivity.py",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/run_sensitivity.py",
+      "original_sha256": "f9df0c0fd7f4d3975cbd3223b78c3cf566c051f64a1a334de4d25d3f2ac25681",
+      "packaged_sha256": "f9df0c0fd7f4d3975cbd3223b78c3cf566c051f64a1a334de4d25d3f2ac25681",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/session_results.json.gz",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/session_results.json.gz",
+      "original_sha256": "b20fa54e5b0e5fbf8d2ac3b9a3995fae8b56cd9720ef457c75197fa592167bbb",
+      "packaged_sha256": "b20fa54e5b0e5fbf8d2ac3b9a3995fae8b56cd9720ef457c75197fa592167bbb",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/test_engine.py",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/test_engine.py",
+      "original_sha256": "990e0a2d812ed4c3e05fe652f71fbb2fecb103a1f1817b3f8e5af500e17d81d6",
+      "packaged_sha256": "990e0a2d812ed4c3e05fe652f71fbb2fecb103a1f1817b3f8e5af500e17d81d6",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/verification.json",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/verification.json",
+      "original_sha256": "c831988f979c52c8f9c1fafe8e144961c5c2ef4b61fd74efddb81848f0ceca02",
+      "packaged_sha256": "c831988f979c52c8f9c1fafe8e144961c5c2ef4b61fd74efddb81848f0ceca02",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/verify.py",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/verify.py",
+      "original_sha256": "17d6b6ba709af014189aa44f8551f5c71a3877677d0ad4cf318a6e50431b445c",
+      "packaged_sha256": "17d6b6ba709af014189aa44f8551f5c71a3877677d0ad4cf318a6e50431b445c",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/transport_sensitivity_v1/verify_bootstrap.py",
+      "source_relative_to_study_outputs": "transport_sensitivity_v1/verify_bootstrap.py",
+      "original_sha256": "5732c649e92ea956af58d636785cd148123d958a053c591dfdd342ebd35a1dc1",
+      "packaged_sha256": "5732c649e92ea956af58d636785cd148123d958a053c591dfdd342ebd35a1dc1",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/manuscript_results_v1/build_figures.py",
+      "source_relative_to_study_outputs": "manuscript_results_v1/build_figures.py",
+      "original_sha256": "fbe2975767d625c0279fe0bf6562c1ec484508429d397a18ef844e018cea7364",
+      "packaged_sha256": "fbe2975767d625c0279fe0bf6562c1ec484508429d397a18ef844e018cea7364",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "study/manuscript_rebalanced_v1/build_promoted_figures.py",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/build_promoted_figures.py",
+      "original_sha256": "dd80a8b1615c2f4acf60db7b6042ec34a45d417a88387600c6158782d1937633",
+      "packaged_sha256": "dd80a8b1615c2f4acf60db7b6042ec34a45d417a88387600c6158782d1937633",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "recorded_figures/results_coalition_transfer.pdf",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/figures/results_coalition_transfer.pdf",
+      "original_sha256": "d120488f299695bb28a9cbca638d3f9df99645c177d4773c4a2a38a651f2823f",
+      "packaged_sha256": "d120488f299695bb28a9cbca638d3f9df99645c177d4773c4a2a38a651f2823f",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "recorded_figures/results_cooperative_attribution.pdf",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/figures/results_cooperative_attribution.pdf",
+      "original_sha256": "29a38673b1ac40aa87005e8143338223e4a004a75c42d4a29a1df4232f5a1ad6",
+      "packaged_sha256": "29a38673b1ac40aa87005e8143338223e4a004a75c42d4a29a1df4232f5a1ad6",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "recorded_figures/results_cost_reliability.pdf",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/figures/results_cost_reliability.pdf",
+      "original_sha256": "e0f3ffcd609577ff64b6dce670c8cb37225510a235b597fadfa6099feaaac95a",
+      "packaged_sha256": "e0f3ffcd609577ff64b6dce670c8cb37225510a235b597fadfa6099feaaac95a",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "recorded_figures/results_fullgrid_transfer.pdf",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/figures/results_fullgrid_transfer.pdf",
+      "original_sha256": "c61f768e9e7cc981bda94465a2bd9697d02f8ba1392295bc556252c75edb6d00",
+      "packaged_sha256": "c61f768e9e7cc981bda94465a2bd9697d02f8ba1392295bc556252c75edb6d00",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "recorded_figures/results_fullgrid_validation.pdf",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/figures/results_fullgrid_validation.pdf",
+      "original_sha256": "9d870f654dee3d585855ac9a4f217e38f6547abe031072dc19ce801a2ca0f45e",
+      "packaged_sha256": "9d870f654dee3d585855ac9a4f217e38f6547abe031072dc19ce801a2ca0f45e",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "recorded_figures/results_observation_pricing.pdf",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/figures/results_observation_pricing.pdf",
+      "original_sha256": "96e7bef2ce65103f73dde4813ce84602f84783fb03184f14cb6da150428b07bd",
+      "packaged_sha256": "96e7bef2ce65103f73dde4813ce84602f84783fb03184f14cb6da150428b07bd",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "recorded_figures/results_policy_comparison.pdf",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/figures/results_policy_comparison.pdf",
+      "original_sha256": "dfb1ab276bc57a9c61f7672a8ff71c77720c76ab2cca222a4357e7d70a9df89d",
+      "packaged_sha256": "dfb1ab276bc57a9c61f7672a8ff71c77720c76ab2cca222a4357e7d70a9df89d",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "recorded_figures/supp_catalogue_expansion.pdf",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/figures/supp_catalogue_expansion.pdf",
+      "original_sha256": "3f353923a8c10a96783374789343451d7d5688f6110dd66bf2fef93e4dd40d4d",
+      "packaged_sha256": "3f353923a8c10a96783374789343451d7d5688f6110dd66bf2fef93e4dd40d4d",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "recorded_figures/supp_sensitivity_secondary.pdf",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/figures/supp_sensitivity_secondary.pdf",
+      "original_sha256": "ed5189029c0e3e3c11541eb52c194b8886a36c8694d87620d6a8a0a796f0ff50",
+      "packaged_sha256": "ed5189029c0e3e3c11541eb52c194b8886a36c8694d87620d6a8a0a796f0ff50",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "recorded_figures/supp_validation_secondary.pdf",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/figures/supp_validation_secondary.pdf",
+      "original_sha256": "bc38c29817b1184edb91d6e8078e16491f36853745833e680c463c2ebd0f0d09",
+      "packaged_sha256": "bc38c29817b1184edb91d6e8078e16491f36853745833e680c463c2ebd0f0d09",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "recorded_figures/promoted_figure_data.json",
+      "source_relative_to_study_outputs": "manuscript_rebalanced_v1/promoted_figure_data.json",
+      "original_sha256": "39b6713e4786407c847d47e1ba919666be7d4362a78b1d625d949c5e14b6252e",
+      "packaged_sha256": "39b6713e4786407c847d47e1ba919666be7d4362a78b1d625d949c5e14b6252e",
+      "transformation": "byte-identical copy"
+    }
+  ],
+  "archive_run_id": "ours-qim-v3-2-20260606T204306-d220f9",
+  "eligible_payloads_bpp": [
+    0.1,
+    0.2,
+    0.4
+  ],
+  "excluded": [
+    "original cover and stego images",
+    "gamma file contents",
+    "full archive CSV and original-message data",
+    "detector checkpoints and training runs",
+    "confidential submissions and correspondence",
+    "virtual environments and caches"
+  ],
+  "note": "Historical input hashes are retained; the packaged checksum of the path-redacted validation report is separately recorded."
+}
