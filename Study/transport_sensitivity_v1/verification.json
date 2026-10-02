@@ -1,0 +1,3949 @@
+{
+  "passed": true,
+  "raw_records_verified": 34560,
+  "legacy_records_exactly_reproduced": 9600,
+  "observation_records_verified": 15360,
+  "byte_adaptive_targets": [
+    1,
+    2
+  ],
+  "strategy_point_evaluations_recomputed": 2304,
+  "coalition_evaluations_recomputed": 2304,
+  "max_absolute_point_error": 5.551115123125783e-16,
+  "all_hashes_unchanged": true,
+  "all_workload_costs_and_budget_caps_recomputed": true,
+  "frozen_coalition_nonmonotone_configurations": 143,
+  "frozen_grand_below_a_subcoalition_configurations": 143,
+  "nonmonotone_details": [
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes",
+      "reversals": [
+        [
+          3,
+          7
+        ]
+      ]
+    }
+  ],
+  "grand_reversal_details": [
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.2,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.7,
+      "pricing": "bytes"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "objects"
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "extra_byte_cap": 0.85,
+      "pricing": "bytes"
+    }
+  ],
+  "scope": "Saved-outcome verification; no refitting and no fresh simulation. Bootstrap intervals not certified by this verifier.",
+  "verification_code_hash": "17d6b6ba709af014189aa44f8551f5c71a3877677d0ad4cf318a6e50431b445c"
+}
