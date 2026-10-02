@@ -1,0 +1,40 @@
+test_all_arrival_permutations_complete (test_transport.TransportTests.test_all_arrival_permutations_complete) ... ok
+test_all_channels_payload_tampering_rejected (test_transport.TransportTests.test_all_channels_payload_tampering_rejected) ... ok
+test_attack_block_cap_no_carry_and_partial_block (test_transport.TransportTests.test_attack_block_cap_no_carry_and_partial_block) ... ok
+test_attack_input_cannot_be_replayed_or_time_reversed (test_transport.TransportTests.test_attack_input_cannot_be_replayed_or_time_reversed) ... ok
+test_attacker_budget_fixed_across_defences (test_transport.TransportTests.test_attacker_budget_fixed_across_defences) ... ok
+test_bytes_reconcile_all_eight_policies_even_when_lost (test_transport.TransportTests.test_bytes_reconcile_all_eight_policies_even_when_lost) ... ok
+test_clock_window_advances_after_unseen_epoch_expires (test_transport.TransportTests.test_clock_window_advances_after_unseen_epoch_expires) ... ok
+test_completely_lost_epochs_in_denominator (test_transport.TransportTests.test_completely_lost_epochs_in_denominator) ... ok
+test_copies_are_impaired_too (test_transport.TransportTests.test_copies_are_impaired_too) ... ok
+test_copies_consume_separate_attack_actions (test_transport.TransportTests.test_copies_consume_separate_attack_actions) ... ok
+test_copy_can_replace_lost_original (test_transport.TransportTests.test_copy_can_replace_lost_original) ... ok
+test_cross_epoch_components_do_not_complete (test_transport.TransportTests.test_cross_epoch_components_do_not_complete) ... ok
+test_duplicate_delivery_prevented (test_transport.TransportTests.test_duplicate_delivery_prevented) ... ok
+test_exact_deadline_is_inclusive (test_transport.TransportTests.test_exact_deadline_is_inclusive) ... ok
+test_full_transcript_hash_checked (test_transport.TransportTests.test_full_transcript_hash_checked) ... ok
+test_future_and_out_of_window_do_not_advance_state (test_transport.TransportTests.test_future_and_out_of_window_do_not_advance_state) ... ok
+test_hard_defender_budget_and_exact_boundary (test_transport.TransportTests.test_hard_defender_budget_and_exact_boundary) ... ok
+test_header_tampering_rejected (test_transport.TransportTests.test_header_tampering_rejected) ... ok
+test_invalid_configuration_fails_closed (test_transport.TransportTests.test_invalid_configuration_fails_closed) ... ok
+test_late_last_object_cannot_trigger_acceptance (test_transport.TransportTests.test_late_last_object_cannot_trigger_acceptance) ... ok
+test_malformed_length_and_truncated_input (test_transport.TransportTests.test_malformed_length_and_truncated_input) ... ok
+test_missing_each_required_channel_expires (test_transport.TransportTests.test_missing_each_required_channel_expires) ... ok
+test_natural_loss_not_disclosed_and_does_not_refund_attack (test_transport.TransportTests.test_natural_loss_not_disclosed_and_does_not_refund_attack) ... ok
+test_nonmonotone_and_closed_receivers_rejected (test_transport.TransportTests.test_nonmonotone_and_closed_receivers_rejected) ... ok
+test_objects_longer_than_digest_are_not_truncated (test_transport.TransportTests.test_objects_longer_than_digest_are_not_truncated) ... ok
+test_one_millisecond_late_expires (test_transport.TransportTests.test_one_millisecond_late_expires) ... ok
+test_recorded_extraction_failure_remains_failure_with_copies (test_transport.TransportTests.test_recorded_extraction_failure_remains_failure_with_copies) ... ok
+test_repeated_finalization_does_not_duplicate_outcomes (test_transport.TransportTests.test_repeated_finalization_does_not_duplicate_outcomes) ... ok
+test_spread_boundary_and_copy_refresh (test_transport.TransportTests.test_spread_boundary_and_copy_refresh) ... ok
+test_transcript_substitution_rejected (test_transport.TransportTests.test_transcript_substitution_rejected) ... ok
+test_unknown_epoch_rejected (test_transport.TransportTests.test_unknown_epoch_rejected) ... ok
+test_valid_copy_after_invalid_original (test_transport.TransportTests.test_valid_copy_after_invalid_original) ... ok
+test_wire_round_trip_and_exact_size (test_transport.TransportTests.test_wire_round_trip_and_exact_size) ... ok
+test_wrong_key_rejected (test_transport.TransportTests.test_wrong_key_rejected) ... ok
+test_wrong_session_or_configuration_rejected (test_transport.TransportTests.test_wrong_session_or_configuration_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.015s
+
+OK

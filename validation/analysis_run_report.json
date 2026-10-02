@@ -1,0 +1,56 @@
+{
+  "task": "analysis",
+  "reference_files_modified": false,
+  "new_full_simulation_sweep": false,
+  "commands": [
+    {
+      "stage": "game_analysis_v1",
+      "arguments": [
+        "analyse.py"
+      ],
+      "returncode": 0,
+      "log": "logs/01_game_analysis_v1_analyse.py.txt"
+    },
+    {
+      "stage": "fresh_seed_validation_v1",
+      "arguments": [
+        "evaluate.py"
+      ],
+      "returncode": 0,
+      "log": "logs/02_fresh_seed_validation_v1_evaluate.py.txt"
+    },
+    {
+      "stage": "transport_sensitivity_v1",
+      "arguments": [
+        "evaluate.py"
+      ],
+      "returncode": 0,
+      "log": "logs/03_transport_sensitivity_v1_evaluate.py.txt"
+    }
+  ],
+  "comparisons": [
+    {
+      "path": "game_analysis_v1/game_results.json",
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "original_sha256": "a4696bd3fca7f6b432612649ce88e2e3b83779d0de2aff51be9498f2ce7444db",
+      "reproduced_sha256": "a4696bd3fca7f6b432612649ce88e2e3b83779d0de2aff51be9498f2ce7444db"
+    },
+    {
+      "path": "fresh_seed_validation_v1/evaluated_strategies.json",
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "original_sha256": "a034cc0765ba433a292f25e94d9326665b78f34e592aa2b8511ba7cf993208d6",
+      "reproduced_sha256": "a034cc0765ba433a292f25e94d9326665b78f34e592aa2b8511ba7cf993208d6"
+    },
+    {
+      "path": "transport_sensitivity_v1/evaluated_strategies.json",
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "original_sha256": "6c3f6b019a43859d0787aec8c56a1dd785ed8da635af14f8b8c5371792a4fcb9",
+      "reproduced_sha256": "6c3f6b019a43859d0787aec8c56a1dd785ed8da635af14f8b8c5371792a4fcb9"
+    }
+  ],
+  "passed": true,
+  "elapsed_seconds": 9.7929348119942
+}

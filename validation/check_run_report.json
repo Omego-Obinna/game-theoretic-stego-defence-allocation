@@ -1,0 +1,75 @@
+{
+  "task": "check",
+  "reference_files_modified": false,
+  "new_full_simulation_sweep": false,
+  "commands": [
+    {
+      "stage": "transport_validation_v1",
+      "arguments": [
+        "-m",
+        "unittest",
+        "-v",
+        "test_transport"
+      ],
+      "returncode": 0,
+      "log": "logs/01_transport_validation_v1_test_transport.txt"
+    },
+    {
+      "stage": "game_analysis_v1",
+      "arguments": [
+        "-m",
+        "unittest",
+        "-v",
+        "test_games"
+      ],
+      "returncode": 0,
+      "log": "logs/02_game_analysis_v1_test_games.txt"
+    },
+    {
+      "stage": "transport_sensitivity_v1",
+      "arguments": [
+        "-m",
+        "unittest",
+        "-v",
+        "test_engine"
+      ],
+      "returncode": 0,
+      "log": "logs/03_transport_sensitivity_v1_test_engine.txt"
+    },
+    {
+      "stage": "game_analysis_v1",
+      "arguments": [
+        "verify_analysis.py"
+      ],
+      "returncode": 0,
+      "log": "logs/04_game_analysis_v1_verify_analysis.py.txt"
+    },
+    {
+      "stage": "fresh_seed_validation_v1",
+      "arguments": [
+        "verify.py"
+      ],
+      "returncode": 0,
+      "log": "logs/05_fresh_seed_validation_v1_verify.py.txt"
+    },
+    {
+      "stage": "transport_sensitivity_v1",
+      "arguments": [
+        "verify.py"
+      ],
+      "returncode": 0,
+      "log": "logs/06_transport_sensitivity_v1_verify.py.txt"
+    },
+    {
+      "stage": "transport_sensitivity_v1",
+      "arguments": [
+        "verify_bootstrap.py"
+      ],
+      "returncode": 0,
+      "log": "logs/07_transport_sensitivity_v1_verify_bootstrap.py.txt"
+    }
+  ],
+  "comparisons": [],
+  "passed": true,
+  "elapsed_seconds": 10.117445889001829
+}

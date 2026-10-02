@@ -1,0 +1,20 @@
+test_additive_shapley (test_games.GameTests.test_additive_shapley) ... ok
+test_balanced_eighty_five_percent_cap (test_games.GameTests.test_balanced_eighty_five_percent_cap) ... ok
+test_balanced_seventy_percent_cap (test_games.GameTests.test_balanced_seventy_percent_cap) ... ok
+test_coalitions_keep_base_policy (test_games.GameTests.test_coalitions_keep_base_policy) ... ok
+test_dummy_player (test_games.GameTests.test_dummy_player) ... ok
+test_empty_core_detected (test_games.GameTests.test_empty_core_detected) ... ok
+test_evaluation_cost_and_worst_case (test_games.GameTests.test_evaluation_cost_and_worst_case) ... ok
+test_invalid_matrix (test_games.GameTests.test_invalid_matrix) ... ok
+test_matching_pennies (test_games.GameTests.test_matching_pennies) ... ok
+test_one_by_one_and_translation (test_games.GameTests.test_one_by_one_and_translation) ... ok
+test_pure_saddle (test_games.GameTests.test_pure_saddle) ... ok
+test_rock_paper_scissors (test_games.GameTests.test_rock_paper_scissors) ... ok
+test_symmetric_unanimity (test_games.GameTests.test_symmetric_unanimity) ... ok
+test_uniform_and_equal_spending (test_games.GameTests.test_uniform_and_equal_spending) ... ok
+test_zero_budget_zero_contributions (test_games.GameTests.test_zero_budget_zero_contributions) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.226s
+
+OK

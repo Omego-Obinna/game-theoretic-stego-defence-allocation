@@ -1,0 +1,137 @@
+{
+  "evaluated_configurations": 288,
+  "strategies_per_configuration": 8,
+  "frozen_weights_unchanged": true,
+  "all_actual_hard_caps_verified": true,
+  "augmented_minimum_never_exceeds_legacy": true,
+  "learning_time_ms_range": [
+    200,
+    200
+  ],
+  "zero_final_reservations": true,
+  "bootstrap_seed": 192999,
+  "bootstrap_resamples": 2000,
+  "wall_seconds": 2.6930567149975104,
+  "evaluator_hash": "1656e14dac5d46179ea375339993cb90e279cb30cbbe4cfc704c9d2753b9ce62",
+  "results_hash": "6c3f6b019a43859d0787aec8c56a1dd785ed8da635af14f8b8c5371792a4fcb9"
+}
+{
+  "pricing": "objects",
+  "cap": 0.7,
+  "values": {
+    "best_fixed_maximin": {
+      "legacy_catalogue_worst": 0.826,
+      "matched_fixed_reservation_worst": 0.827,
+      "adaptive_only": 0.827,
+      "augmented_catalogue_worst": 0.826
+    },
+    "balanced_equal_repetition_probability": {
+      "legacy_catalogue_worst": 0.8600000000000001,
+      "matched_fixed_reservation_worst": 0.8603750000000001,
+      "adaptive_only": 0.8218749999999998,
+      "augmented_catalogue_worst": 0.8218749999999998
+    },
+    "shapley_knapsack": {
+      "legacy_catalogue_worst": 0.826,
+      "matched_fixed_reservation_worst": 0.827,
+      "adaptive_only": 0.827,
+      "augmented_catalogue_worst": 0.826
+    },
+    "restricted_minimax": {
+      "legacy_catalogue_worst": 0.859771812080537,
+      "matched_fixed_reservation_worst": 0.8601510067114095,
+      "adaptive_only": 0.8219093959731542,
+      "augmented_catalogue_worst": 0.8219093959731542
+    }
+  }
+}
+{
+  "pricing": "bytes",
+  "cap": 0.7,
+  "values": {
+    "best_fixed_maximin": {
+      "legacy_catalogue_worst": 0.83475,
+      "matched_fixed_reservation_worst": 0.83625,
+      "adaptive_only": 0.83625,
+      "augmented_catalogue_worst": 0.83475
+    },
+    "balanced_equal_repetition_probability": {
+      "legacy_catalogue_worst": 0.758,
+      "matched_fixed_reservation_worst": 0.7582499999999999,
+      "adaptive_only": 0.7582499999999999,
+      "augmented_catalogue_worst": 0.758
+    },
+    "shapley_knapsack": {
+      "legacy_catalogue_worst": 0.83475,
+      "matched_fixed_reservation_worst": 0.83625,
+      "adaptive_only": 0.83625,
+      "augmented_catalogue_worst": 0.83475
+    },
+    "restricted_minimax": {
+      "legacy_catalogue_worst": 0.7585184563758388,
+      "matched_fixed_reservation_worst": 0.7587734899328858,
+      "adaptive_only": 0.7587734899328858,
+      "augmented_catalogue_worst": 0.7585184563758388
+    }
+  }
+}
+{
+  "pricing": "objects",
+  "cap": 0.85,
+  "values": {
+    "best_fixed_maximin": {
+      "legacy_catalogue_worst": 0.8242499999999998,
+      "matched_fixed_reservation_worst": 0.825,
+      "adaptive_only": 0.825,
+      "augmented_catalogue_worst": 0.8242499999999998
+    },
+    "balanced_equal_repetition_probability": {
+      "legacy_catalogue_worst": 0.8773333333333333,
+      "matched_fixed_reservation_worst": 0.8776666666666667,
+      "adaptive_only": 0.8259166666666667,
+      "augmented_catalogue_worst": 0.8259166666666667
+    },
+    "shapley_knapsack": {
+      "legacy_catalogue_worst": 0.8242499999999998,
+      "matched_fixed_reservation_worst": 0.825,
+      "adaptive_only": 0.825,
+      "augmented_catalogue_worst": 0.8242499999999998
+    },
+    "restricted_minimax": {
+      "legacy_catalogue_worst": 0.8771860986547086,
+      "matched_fixed_reservation_worst": 0.8774394618834082,
+      "adaptive_only": 0.8259215246636771,
+      "augmented_catalogue_worst": 0.8259215246636771
+    }
+  }
+}
+{
+  "pricing": "bytes",
+  "cap": 0.85,
+  "values": {
+    "best_fixed_maximin": {
+      "legacy_catalogue_worst": 0.6877500000000001,
+      "matched_fixed_reservation_worst": 0.6875,
+      "adaptive_only": 0.6875,
+      "augmented_catalogue_worst": 0.6875
+    },
+    "balanced_equal_repetition_probability": {
+      "legacy_catalogue_worst": 0.7855,
+      "matched_fixed_reservation_worst": 0.7863333333333333,
+      "adaptive_only": 0.7375833333333334,
+      "augmented_catalogue_worst": 0.7375833333333334
+    },
+    "shapley_knapsack": {
+      "legacy_catalogue_worst": 0.6877500000000001,
+      "matched_fixed_reservation_worst": 0.6875,
+      "adaptive_only": 0.6875,
+      "augmented_catalogue_worst": 0.6875
+    },
+    "restricted_minimax": {
+      "legacy_catalogue_worst": 0.7857208520179373,
+      "matched_fixed_reservation_worst": 0.7865571748878925,
+      "adaptive_only": 0.7380257847533631,
+      "augmented_catalogue_worst": 0.7380257847533631
+    }
+  }
+}

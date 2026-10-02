@@ -1,0 +1,19 @@
+test_absent_image_not_charged_in_byte_baseline (test_engine.SensitivityTests.test_absent_image_not_charged_in_byte_baseline) ... ok
+test_baseline_budget_does_not_depend_on_policy (test_engine.SensitivityTests.test_baseline_budget_does_not_depend_on_policy) ... ok
+test_byte_target_uses_full_sizes (test_engine.SensitivityTests.test_byte_target_uses_full_sizes) ... ok
+test_copy_charged_to_logical_block (test_engine.SensitivityTests.test_copy_charged_to_logical_block) ... ok
+test_fixed_target_control_waits_and_commits (test_engine.SensitivityTests.test_fixed_target_control_waits_and_commits) ... ok
+test_identical_prefix_same_decisions (test_engine.SensitivityTests.test_identical_prefix_same_decisions) ... ok
+test_invalid_observation_order_rejected (test_engine.SensitivityTests.test_invalid_observation_order_rejected) ... ok
+test_legacy_object_outcomes_exactly_match (test_engine.SensitivityTests.test_legacy_object_outcomes_exactly_match) ... ok
+test_missing_original_does_not_reveal_copy (test_engine.SensitivityTests.test_missing_original_does_not_reveal_copy) ... ok
+test_no_learning_at_copy_boundary (test_engine.SensitivityTests.test_no_learning_at_copy_boundary) ... ok
+test_outstanding_reservation_fails (test_engine.SensitivityTests.test_outstanding_reservation_fails) ... ok
+test_reservations_prevent_overspending (test_engine.SensitivityTests.test_reservations_prevent_overspending) ... ok
+test_uncommitted_late_copy_not_suppressed (test_engine.SensitivityTests.test_uncommitted_late_copy_not_suppressed) ... ok
+test_zero_budget_still_learns (test_engine.SensitivityTests.test_zero_budget_still_learns) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.088s
+
+OK

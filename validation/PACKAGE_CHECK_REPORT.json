@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-25",
+  "passed": true,
+  "software_author": "Obinna Omego",
+  "unit_tests_passed": 64,
+  "unit_test_groups": {
+    "transport": 35,
+    "games": 15,
+    "sensitivity": 14
+  },
+  "analysis_json_files_reproduced_byte_identically": 3,
+  "max_analysis_numeric_difference": 0,
+  "independent_record_and_bootstrap_checks_passed": true,
+  "figure_commands_passed": true,
+  "ten_regenerated_figure_page_drawing_streams_text_and_dimensions_match_recorded": true,
+  "representative_figures_visually_checked": [
+    "results_policy_comparison.pdf",
+    "results_fullgrid_transfer.pdf"
+  ],
+  "reference_research_files_original_hashes_unchanged": true,
+  "copied_research_files": 61,
+  "text_and_decompressed_record_files_privacy_scanned": 80,
+  "privacy_pattern_matches": [],
+  "test_only_authentication_key_present": true,
+  "deployment_keys_included": false,
+  "new_embedding_decoding_or_detector_training": false,
+  "new_full_simulation_sweep": false,
+  "original_image_gamma_fixture_validation_rerun": false,
+  "full_archive_included": false,
+  "runtime": {
+    "python": "3.12.3",
+    "numpy": "2.4.5",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9"
+  },
+  "public_upload_performed": false,
+  "doi_created": false,
+  "limits": [
+    "Tests used the existing verified scientific environment, not a new package installation.",
+    "Original-byte archive fixture checks require excluded inherited inputs.",
+    "Author review, original-data access arrangements and research-output reuse terms remain release responsibilities.",
+    "Privacy scanning is bounded pattern screening, not a guarantee of complete de-identification."
+  ]
+}

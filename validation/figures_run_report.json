@@ -1,0 +1,26 @@
+{
+  "task": "figures",
+  "reference_files_modified": false,
+  "new_full_simulation_sweep": false,
+  "commands": [
+    {
+      "stage": "manuscript_results_v1",
+      "arguments": [
+        "build_figures.py"
+      ],
+      "returncode": 0,
+      "log": "logs/01_manuscript_results_v1_build_figures.py.txt"
+    },
+    {
+      "stage": "manuscript_rebalanced_v1",
+      "arguments": [
+        "build_promoted_figures.py"
+      ],
+      "returncode": 0,
+      "log": "logs/02_manuscript_rebalanced_v1_build_promoted_figures.py.txt"
+    }
+  ],
+  "comparisons": [],
+  "passed": true,
+  "elapsed_seconds": 12.186406847002218
+}

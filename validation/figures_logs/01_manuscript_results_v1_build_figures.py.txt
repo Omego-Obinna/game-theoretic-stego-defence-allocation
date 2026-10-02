@@ -1,0 +1,69 @@
+[
+  {
+    "cap": 0,
+    "fit_cells": 36,
+    "empty_core": 0,
+    "shapley_outside_core": 0,
+    "not_superadditive": 0,
+    "validation_cells": 36,
+    "validation_nonmonotone": 0,
+    "sensitivity_cells": 48,
+    "sensitivity_nonmonotone": 0
+  },
+  {
+    "cap": 0.2,
+    "fit_cells": 36,
+    "empty_core": 24,
+    "shapley_outside_core": 24,
+    "not_superadditive": 24,
+    "validation_cells": 36,
+    "validation_nonmonotone": 24,
+    "sensitivity_cells": 48,
+    "sensitivity_nonmonotone": 47
+  },
+  {
+    "cap": 0.5,
+    "fit_cells": 36,
+    "empty_core": 0,
+    "shapley_outside_core": 0,
+    "not_superadditive": 0,
+    "validation_cells": 36,
+    "validation_nonmonotone": 0,
+    "sensitivity_cells": 48,
+    "sensitivity_nonmonotone": 0
+  },
+  {
+    "cap": 0.7,
+    "fit_cells": 36,
+    "empty_core": 12,
+    "shapley_outside_core": 12,
+    "not_superadditive": 24,
+    "validation_cells": 36,
+    "validation_nonmonotone": 24,
+    "sensitivity_cells": 48,
+    "sensitivity_nonmonotone": 48
+  },
+  {
+    "cap": 0.85,
+    "fit_cells": 36,
+    "empty_core": 0,
+    "shapley_outside_core": 0,
+    "not_superadditive": 0,
+    "validation_cells": 36,
+    "validation_nonmonotone": 0,
+    "sensitivity_cells": 48,
+    "sensitivity_nonmonotone": 48
+  },
+  {
+    "cap": 1,
+    "fit_cells": 36,
+    "empty_core": 0,
+    "shapley_outside_core": 0,
+    "not_superadditive": 0,
+    "validation_cells": 36,
+    "validation_nonmonotone": 0,
+    "sensitivity_cells": 48,
+    "sensitivity_nonmonotone": 0
+  }
+]
+Created five vector figures and a four-page full-grid supplement from saved results.

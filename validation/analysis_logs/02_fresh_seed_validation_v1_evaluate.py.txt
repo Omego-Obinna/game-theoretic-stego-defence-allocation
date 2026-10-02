@@ -1,0 +1,153 @@
+{
+  "frozen_game_cells_evaluated": 216,
+  "strategies_per_game": 8,
+  "seed_n": 20,
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 191999,
+  "all_actual_workload_hard_caps_checked": true,
+  "statistics_unit_checks_passed": true,
+  "no_refitting": true,
+  "frozen_coalition_nonmonotone_cells": 48,
+  "evaluation_wall_seconds": 1.4737971449940233,
+  "evaluator_hash": "d182f38f18e18820bcc1ba482fd87fb7f537067065642f694dbdca7963fe09b4",
+  "freeze_hash_unchanged": "f472d8273e4921dd56d3ac4dac8eace804a812600137459b816f824bbddccd1e",
+  "results_hash": "a034cc0765ba433a292f25e94d9326665b78f34e592aa2b8511ba7cf993208d6"
+}
+{
+  "cap": 0.7,
+  "values": {
+    "no_extra": {
+      "value": 0.8089999999999999,
+      "minimax_minus": 0.05077181208053705,
+      "interval": [
+        0.0491492869127517,
+        0.05239765100671134
+      ]
+    },
+    "best_fixed_maximin": {
+      "value": 0.826,
+      "minimax_minus": 0.033771812080537034,
+      "interval": [
+        0.03140964765100633,
+        0.03613087248322122
+      ]
+    },
+    "uniform_feasible": {
+      "value": 0.8327500000000001,
+      "minimax_minus": 0.02702181208053689,
+      "interval": [
+        0.02637013422818768,
+        0.027723515100671108
+      ]
+    },
+    "equal_expected_channel_bytes": {
+      "value": 0.8399198985565997,
+      "minimax_minus": 0.019851913523937337,
+      "interval": [
+        0.018464823243369136,
+        0.02121998634408397
+      ]
+    },
+    "balanced_equal_repetition_probability": {
+      "value": 0.8600000000000001,
+      "minimax_minus": -0.00022818791946310757,
+      "interval": [
+        -0.00024328859060429586,
+        0.00016380033557044258
+      ]
+    },
+    "greedy_marginal_per_byte": {
+      "value": 0.826,
+      "minimax_minus": 0.033771812080537034,
+      "interval": [
+        0.03140964765100633,
+        0.03613087248322122
+      ]
+    },
+    "shapley_knapsack": {
+      "value": 0.826,
+      "minimax_minus": 0.033771812080537034,
+      "interval": [
+        0.03140964765100633,
+        0.03613087248322122
+      ]
+    },
+    "restricted_minimax": {
+      "value": 0.859771812080537,
+      "minimax_minus": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}
+{
+  "cap": 0.85,
+  "values": {
+    "no_extra": {
+      "value": 0.8089999999999999,
+      "minimax_minus": 0.0681860986547087,
+      "interval": [
+        0.06629147982062789,
+        0.07010319506726487
+      ]
+    },
+    "best_fixed_maximin": {
+      "value": 0.8242499999999998,
+      "minimax_minus": 0.05293609865470883,
+      "interval": [
+        0.049936070627802885,
+        0.055612107623318474
+      ]
+    },
+    "uniform_feasible": {
+      "value": 0.8528214285714286,
+      "minimax_minus": 0.024364670083280027,
+      "interval": [
+        0.02374259689301738,
+        0.025072809897501876
+      ]
+    },
+    "equal_expected_channel_bytes": {
+      "value": 0.8437334830785425,
+      "minimax_minus": 0.03345261557616619,
+      "interval": [
+        0.03193811161735545,
+        0.034930123782174666
+      ]
+    },
+    "balanced_equal_repetition_probability": {
+      "value": 0.8773333333333333,
+      "minimax_minus": -0.00014723467862465256,
+      "interval": [
+        -0.0002395366218234135,
+        0.0001270553064275426
+      ]
+    },
+    "greedy_marginal_per_byte": {
+      "value": 0.826,
+      "minimax_minus": 0.05118609865470869,
+      "interval": [
+        0.04886322869955161,
+        0.053426457399103525
+      ]
+    },
+    "shapley_knapsack": {
+      "value": 0.8242499999999998,
+      "minimax_minus": 0.05293609865470883,
+      "interval": [
+        0.049936070627802885,
+        0.055612107623318474
+      ]
+    },
+    "restricted_minimax": {
+      "value": 0.8771860986547086,
+      "minimax_minus": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}
