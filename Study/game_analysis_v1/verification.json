@@ -1,0 +1,295 @@
+{
+  "cells_reconciled": 216,
+  "empty_core_certificates": [
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.0050000000000000044
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.002205128205128304
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.004000000000000781
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.008000000000000007
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.007000000000000006
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.007000000000000006
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.0050000000000000044
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.002205128205128304
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.004000000000000781
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.008000000000000007
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.007000000000000006
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.007000000000000006
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.0050000000000000044
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.002205128205128304
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.004000000000000781
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.008000000000000007
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.007000000000000006
+    },
+    {
+      "endpoint": "transport_completion",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.007000000000000006
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.0050000000000000044
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.002205128205128193
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E1",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.004000000000000115
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.008000000000000007
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.007000000000000006
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.1,
+      "environment": "E2",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.006999999999999895
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.0050000000000000044
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.002205128205128304
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E1",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.004000000000000781
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.008000000000000007
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.007000000000000006
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.2,
+      "environment": "E2",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.007000000000000006
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.0050000000000000044
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.002205128205128304
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E1",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.004000000000000781
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.008000000000000007
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.01,
+      "cap": 0.7,
+      "singleton_sum_minus_grand_value": 0.007000000000000006
+    },
+    {
+      "endpoint": "recorded_extraction_weighted",
+      "payload_bpp": 0.4,
+      "environment": "E2",
+      "beta": 0.05,
+      "cap": 0.2,
+      "singleton_sum_minus_grand_value": 0.007000000000000006
+    }
+  ],
+  "unique_empty_core_conditions": 6,
+  "independent_representative_values_matched": true
+}

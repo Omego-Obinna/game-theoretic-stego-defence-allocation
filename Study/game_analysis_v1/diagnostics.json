@@ -1,0 +1,27 @@
+{
+  "game_cells": 216,
+  "coalition_subgames": 1728,
+  "unit_tests_passed": 15,
+  "maximum_restricted_exploitability": 2.1094237467877974e-15,
+  "maximum_coalition_exploitability": 2.1094237467877974e-15,
+  "maximum_shapley_efficiency_error": 1.3877787807814457e-17,
+  "empty_core_cells": 36,
+  "shapley_outside_core_cells": 36,
+  "non_superadditive_cells": 48,
+  "wall_seconds": 3.9464584509987617,
+  "scipy": "1.17.1",
+  "numpy": "2.4.5",
+  "source_hashes": {
+    "session_results.json": "c007ca9432f3002b91a6689715d394cfb7b345847816273eacdc724ba81dbc3e",
+    "metadata.json": "c62c6604fcf7dcb3c89d9d6cbd0eb29cbffc4bf01bb093eb2e36c2f1bac4cf5a",
+    "sampled_records.json": "6310469352a0a1cbf1954385f22d94242dc44c25269f65d044f61a241268dcf3",
+    "payoff_summary.json": "0f4140a2a09c5da61770889a313054994b71cfa9548e00fb3763f32817ddcf37"
+  },
+  "analysis_hashes": {
+    "PLAN.md": "2d7a33d5fb2861937a67f1c9067dbd77ac74e6ceeda5d87c417a39f4b34f1a90",
+    "games.py": "ce5fb131f6c1092d196b42b4e5b7fd56eaa0299adb346ee8986d20c295f036a0",
+    "test_games.py": "8e90d30b5e7b941fd268d0fc4dc0c9b4541a783ac27305e28106018225fe5df9",
+    "analyse.py": "bdf128fe09dff57dda645179e7d1f8dc3cf1418e112d4c2390d79c4fb29b1658"
+  },
+  "fresh_transport_seeds_run": false
+}
